@@ -50,7 +50,7 @@ app.post("/submit", async (req, res) => {
       html: `
         <p>Hi ${name},</p>
         <p>Thank you for submitting your details. Please wait for 24 hours — our team will get back to you soon.</p>
-        <p>Regards,<br>Namma Yatri Campus Hiring Team</p>
+        <p>Regards,<br>project digger</p>
       `,
     };
 
@@ -70,3 +70,4 @@ app.post("/submit", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
