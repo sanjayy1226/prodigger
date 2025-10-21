@@ -10,9 +10,8 @@ function About() {
     >
       <h2 className="about-heading">About Us</h2>
       <p className="about-text">
-        Welcome to <strong>Namma Yatri Campus Hiring</strong>. We’re a team
-        dedicated to providing students with career opportunities and technical
-        assessments that help them grow into skilled professionals.
+        Welcome to <strong>Project Digger </strong>. We’re a team
+              Discovers, Develops,  Delivers — Your Ideal Final-Year Project Awaits
       </p>
       <p className="about-text">
         Our mission is to connect passionate learners with innovative companies
@@ -26,3 +25,4 @@ function About() {
 }
 
 export default About;
+
