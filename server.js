@@ -1,8 +1,8 @@
-import express from "express";
+import express from "express"; 
 import cors from "cors";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
-
+// jvea ndzy osjs ycat
 dotenv.config();
 
 const app = express();
@@ -23,15 +23,15 @@ app.post("/submit", async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.ADMIN_EMAIL,
-        pass: process.env.EMAIL_PASSWORD,
+        user: "sanjaygovind149@gmail.com",
+        pass: "jvea ndzy osjs ycat",
       },
     });
 
     // Email to Admin
     const adminMail = {
       from: email,
-      to: process.env.ADMIN_EMAIL,
+      to:"sanjaygovind149@gmail.com",
       subject: "New Form Submission",
       html: `
         <h2>New Submission</h2>
@@ -70,4 +70,5 @@ app.post("/submit", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
 
